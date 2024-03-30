@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test name="Chrome">
+	  <parameter name="para" value="Chrome"></parameter>
+    <classes>
+      <class name="day4_18032024.CrossBrowserTesting"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Firefox">
+	  <parameter name="para" value="firefox"></parameter>
+    <classes>
+      <class name="day4_18032024.CrossBrowserTesting"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Edge">
+	  <parameter name="para" value="Edge"></parameter>
+    <classes>
+      <class name="day4_18032024.CrossBrowserTesting"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
